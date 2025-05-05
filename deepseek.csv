@@ -1,71 +1,103 @@
-item,list,position,item_type,response,r_k
-bed,furniture,1,studied,old,R
-blanket,furniture,2,studied,old,K
-slumber,sleep,3,studied,old,K
-mad,emotion,4,studied,old,R
-wrath,emotion,5,studied,old,K
-fight,violence,6,studied,old,K
-thread,sewing,7,studied,old,R
-thimble,sewing,8,studied,old,R
-thorn,nature,9,studied,old,K
-door,house,10,studied,old,R
-open,house,11,studied,old,K
-frame,house,12,studied,old,R
-note,music,13,studied,old,K
-horn,music,14,studied,old,K
-instrument,music,15,studied,old,R
-fast,speed,16,studied,old,K
-traffic,transport,17,studied,old,K
-hesitant,emotion,18,studied,new,        
-smooth,texture,19,studied,old,R
-coarse,texture,20,studied,old,K
-riders,transport,21,studied,new,        
-queen,royalty,22,studied,old,R
-throne,royalty,23,studied,old,R
-rule,royalty,24,studied,old,K
-water,liquid,25,studied,old,R
-flow,liquid,26,studied,old,R
-barge,transport,27,studied,old,K
-table,furniture,28,studied,old,K
-sofa,furniture,29,studied,old,K
-cushion,furniture,30,studied,old,K
-hill,geography,31,studied,old,R
-plain,geography,32,studied,new,        
-goat,animal,33,studied,old,K
-candy,food,34,studied,old,R
-nice,social,35,studied,old, K
-soda,drink,36,studied,old,K
-woman,people,37,studied,old,K
-strong,attribute,38,studied,old,K
-beard,body,39,studied,old,K
-hot,temperature,40,studied,old,R
-chilly,temperature,41,studied,old,K
-weather,weather,42,studied,old,K
-hard,texture,43,studied,old,R
-touch,sense,44,studied,old,K
-feather,nature,45,studied,old,R
-nurse,medical,46,studied,old,R
-physician,medical,47,studied,old,K
-patient,medical,48,studied,old,R
-apple,fruit,–,unrelated,new,
-banana,fruit,–,unrelated,new,
-…  
-sleep,sleep,–,unrelated,old,K
-anger,emotion,–,unrelated,old,K
-needle,sewing,–,unrelated,old,K
-window,house,–,unrelated,old,K
-slow,speed,–,unrelated,old,K
-music,music,–,unrelated,old,K
-rough,texture,–,unrelated,old,K
-king,royalty,–,unrelated,old,K
-river,liquid,–,unrelated,old,K
-chair,furniture,–,unrelated,old,K
-mountain,geography,–,unrelated,old,K
-sweet,food,–,unrelated,old,K
-man,people,–,unrelated,old,K
-cold,temperature,–,unrelated,old,K
-soft,texture,–,unrelated,old,K
-doctor,medical,–,unrelated,old,K
-fruit,food,–,unrelated,new,
-…  
-death,event,–,unrelated,new,
+word,position,item_type,response,r_k
+bed,1,studied,old,r
+blanket,8,studied,old,k
+slumber,10,studied,old,k
+mad,1,studied,old,r
+wrath,8,studied,old,k
+fight,10,studied,old,k
+thread,1,studied,old,r
+thimble,8,studied,old,r
+thorn,10,studied,old,k
+door,1,studied,old,r
+open,8,studied,old,k
+frame,10,studied,old,r
+note,1,studied,old,k
+horn,8,studied,old,k
+instrument,10,studied,old,r
+fast,1,studied,old,k
+traffic,8,studied,old,k
+hesitant,10,studied,new,NA
+smooth,1,studied,old,r
+coarse,8,studied,old,k
+riders,10,studied,new,NA
+queen,1,studied,old,r
+throne,8,studied,old,r
+rule,10,studied,old,k
+water,1,studied,old,r
+flow,8,studied,old,r
+barge,10,studied,old,k
+table,1,studied,old,k
+sofa,8,studied,old,k
+cushion,10,studied,old,k
+hill,1,studied,old,r
+plain,8,studied,new,NA
+goat,10,studied,old,k
+candy,1,studied,old,r
+nice,8,studied,new,NA
+soda,10,studied,old,k
+woman,1,studied,old,k
+strong,8,studied,old,k
+beard,10,studied,old,k
+hot,1,studied,old,r
+chilly,8,studied,old,k
+weather,10,studied,old,k
+hard,1,studied,old,r
+touch,8,studied,old,k
+feather,10,studied,old,r
+nurse,1,studied,old,r
+physician,8,studied,old,k
+patient,10,studied,old,r
+apple,1,not studied,new,NA
+banana,8,not studied,new,NA
+cherry,10,not studied,new,NA
+web,1,not studied,new,NA
+tarantula,8,not studied,new,NA
+bite,10,not studied,new,NA
+sleep,NA,critical lure,old,k
+anger,NA,critical lure,old,k
+needle,NA,critical lure,old,k
+window,NA,critical lure,old,k
+slow,NA,critical lure,old,k
+music,NA,critical lure,old,k
+rough,NA,critical lure,old,k
+king,NA,critical lure,old,k
+river,NA,critical lure,old,k
+chair,NA,critical lure,old,k
+mountain,NA,critical lure,old,k
+sweet,NA,critical lure,old,k
+man,NA,critical lure,old,k
+cold,NA,critical lure,old,k
+soft,NA,critical lure,old,k
+doctor,NA,critical lure,old,k
+fruit,NA,critical lure,new,NA
+spider,NA,critical lure,new,NA
+foot,NA,critical lure,new,NA
+bread,NA,critical lure,new,NA
+high,NA,critical lure,new,NA
+thief,NA,critical lure,new,NA
+girl,NA,critical lure,new,NA
+black,NA,critical lure,new,NA
+shoe,1,not studied,new,NA
+walk,8,not studied,new,NA
+arm,10,not studied,new,NA
+butter,1,not studied,new,NA
+flour,8,not studied,new,NA
+dough,10,not studied,new,NA
+low,1,not studied,new,NA
+building,8,not studied,new,NA
+cliff,10,not studied,new,NA
+steal,1,not studied,new,NA
+rob,8,not studied,new,NA
+gun,10,not studied,new,NA
+boy,1,not studied,new,NA
+niece,8,not studied,new,NA
+beautiful,10,not studied,new,NA
+white,1,not studied,new,NA
+grief,8,not studied,new,NA
+death,10,not studied,new,NA
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
